@@ -13,16 +13,16 @@ class IntPair(val first: Int, val second: Int){
     
     // 和を返す
     fun sum() : Int {
-        return first + second
+        return this.first + this.second
     }
     
     // 大きい方を返す
     fun max(): Int {
-        if(first >= second){
-          return  first 
+        if(this.first >= this.second){
+          return  this.first 
         }
         else {
-                   return  second
+          return  this.second
         }
     }
    
