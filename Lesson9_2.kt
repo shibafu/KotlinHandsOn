@@ -13,5 +13,6 @@ fun main() {
     val name: String? = getFruitsName()
 
     // sがnullの場合はnullになる
+    // letを使うと、型変換が出来る
     val age : Int? = name?.let { it.toInt() }
 }
